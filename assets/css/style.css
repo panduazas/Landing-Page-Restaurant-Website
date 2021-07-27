@@ -1,0 +1,583 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* =============== NAVBAR =============== */
+
+nav .navbar-brand img {
+  width: 80%;
+}
+nav .navbar-nav a {
+  margin-left: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+nav .navbar-nav a:hover {
+  color: #e9dede;
+}
+
+nav .navbar-nav a.active {
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+nav .navbar-toggler {
+  color: #ffffff !important;
+}
+
+.navbar.scrolled {
+  background-color: #1c150d;
+}
+/* =============== JUMBOTRON =============== */
+.jumbotron {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 768px;
+}
+
+.jumbotron .container .row .col-md-6 h1 {
+  margin-top: 196px;
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.jumbotron .container .row .col-md-6 p {
+  font-size: 18px;
+  color: #e6dada;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.jumbotron .container .row .col-md-6 .btn {
+  width: 250px;
+  height: 45px;
+  background-color: #b97e45;
+  color: #ffffff;
+  border-radius: 0;
+  margin-top: 40px;
+}
+
+.jumbotron .container .row .col-md-6 .btn:hover {
+  background-color: #cf8f53;
+}
+
+.jumbotron .container .row .col-md-6 img {
+  position: absolute;
+  right: 0;
+}
+
+/* =============== ABOUT =============== */
+
+.about {
+  background-color: #331900;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-bottom: 45px;
+}
+
+.about .container .row .col-md-6 img {
+  margin-top: 45px;
+}
+
+.about .container .row .col-md-6 h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 83px;
+}
+
+.about .container .row .col-md-6 hr {
+  color: #b97e45;
+  opacity: 100%;
+  width: 270px;
+}
+
+.about .container .row .col-md-6 p {
+  color: #e6dada;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.about .container .row .col-md-6 .btn {
+  width: 250px;
+  height: 45px;
+  background-color: #b97e45;
+  color: #ffffff;
+  border-radius: 0;
+  margin-top: 40px;
+}
+
+.about .container .row .col-md-6 .btn:hover {
+  background-color: #cf8f53;
+}
+
+/* =============== FAVOURITE =============== */
+
+.favourite .container h2 {
+  color: #000000;
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.favourite .container .owl-carousel .content-area h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #331900;
+  text-align: center;
+}
+
+.favourite .container .owl-carousel .content-area p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.favourite .owl-dots {
+  text-align: center;
+}
+
+.favourite .owl-dot {
+  display: inline-block;
+  height: 20px !important;
+  width: 20px !important;
+  background-color: #b97e45 !important;
+  opacity: 50%;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.favourite .owl-dot.active {
+  background-color: #b97e45 !important;
+  width: 50px !important;
+  opacity: 100% !important;
+  border-radius: 20px !important;
+}
+
+/* =============== MENU =============== */
+
+.menu {
+  margin-top: 90px;
+  width: 100%;
+}
+
+.menu .container .row .col-md-6 h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #331900;
+  margin-top: 50px;
+}
+
+.menu .container .row .col-md-6 hr {
+  color: #b97e45;
+  opacity: 100%;
+  width: 270px;
+}
+
+.menu .container .row .col-md-6 p {
+  color: #331900;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.menu .container .row .col-md-6 .btn {
+  width: 250px;
+  height: 45px;
+  background-color: #b97e45;
+  color: #ffffff;
+  border-radius: 0;
+  margin-top: 40px;
+}
+
+.menu .container .row .col-md-6 .btn:hover {
+  background-color: #cf8f53;
+}
+
+/* =============== TESTIMONIAL =============== */
+
+.customers-testimonial {
+  margin-top: 90px;
+}
+
+.customers-testimonial .item .testimonial-content img {
+  margin: auto;
+  width: 130px !important;
+}
+
+.customers-testimonial h3 {
+  color: #331900;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.customers-testimonial p {
+  color: #331900;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#testimonial .item {
+  opacity: 0.2;
+  transform: scale3d(0.6, 0.6, 1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#testimonial .owl-item.active.center .item {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+/* =============== GALLERY =============== */
+
+.gallery-section {
+  margin-top: 90px;
+  width: 100%;
+}
+
+.gallery-section .title {
+  margin: auto;
+  height: 87px;
+  background-color: #b97e45;
+  padding: 16px;
+}
+
+.gallery-section .title h2 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 42px;
+}
+
+.gallery {
+  background-image: url(../img/Group\ 10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+/* =============== FACILITY =============== */
+
+.facility {
+  margin-top: 60px;
+}
+
+.facility h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #331900;
+  text-align: center;
+}
+
+.facility .container .row .col-md-4 img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.facility .container .row .col-md-4 h3 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #331900;
+}
+
+.facility .container .btn {
+  width: 250px;
+  height: 45px;
+  background-color: #b97e45;
+  color: #ffffff;
+  border-radius: 0;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.facility .container .btn:hover {
+  background-color: #cf8f53;
+}
+
+/* =============== LOCATION =============== */
+
+.location {
+  margin-top: 90px;
+  width: 100%;
+}
+
+.location .container .row .col-md-6 h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #331900;
+}
+
+.location .container .row .col-md-6 hr {
+  color: #b97e45;
+  opacity: 100%;
+  width: 270px;
+}
+
+.location .container .row .col-md-6 p {
+  color: #331900;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* =============== INFO =============== */
+
+.info {
+  margin-top: 90px;
+  background-color: #331900;
+}
+
+.info .container .row .col-md-3 h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.info .container .row .col-md-4 h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.info .container .row .col-md-5 h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.info .container .row .col-md-3 p {
+  color: #f8c0c0;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.info .container .row .col-md-4 p {
+  color: #f8c0c0;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.info .container .row .col-md-5 p {
+  color: #f8c0c0;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+/* =============== FOOTER =============== */
+
+footer {
+  background-color: #1c150d;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+footer a img {
+  float: right;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/* ========================= SMARTPHONE VIEW ========================= */
+@media (max-width: 767px) {
+  /* ===== NAVBAR ===== */
+
+  .navbar {
+    background-color: #1c150d;
+  }
+
+  .navbar-collapse {
+    background: #1c150d;
+    margin: 1rem -1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 1rem;
+  }
+
+  .navbar.scrolled {
+    background-color: #1c150d;
+  }
+  /* ===== JUMBOTRON ===== */
+
+  .jumbotron .container .row .col-md-6 .title {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .jumbotron .container .row .col-md-6 h1 {
+    margin-top: 150px;
+    font-size: 48px;
+  }
+
+  .jumbotron .container .row .col-md-6 .btn {
+    display: block;
+  }
+
+  .jumbotron .container .row .col-md-6 img {
+    position: absolute;
+    margin-top: 500px;
+    width: 280%;
+  }
+
+  /* ===== ABOUT ===== */
+
+  .about .container .row .col-md-6 img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .about .container .row .col-md-6 h2 {
+    margin-top: 30px;
+  }
+
+  .about .container .row .col-md-6 .btn {
+    display: block;
+  }
+
+  /* ===== MENU ===== */
+
+  .menu .container .row .col-md-6 img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+  }
+
+  .menu .container .row .col-md-6 h2 {
+    margin-top: 30px;
+  }
+
+  .menu .container .row .col-md-6 .btn {
+    display: block;
+  }
+
+  /* ===== GALLERY ===== */
+
+  .gallery-section .gallery img {
+    width: 100%;
+  }
+
+  /* ===== LOCATION ===== */
+
+  .location .container .row .col-md-6 h2 {
+    margin-top: 30px;
+  }
+
+  /* ===== FOOTER ===== */
+
+  footer .container .row {
+    flex-direction: column-reverse;
+  }
+
+  footer .container .row .col-md-6 a img {
+    float: left;
+    margin-right: 30px;
+    margin-left: 0;
+  }
+}
+
+/* ========================= iPad VIEW ========================= */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* ===== JUMBOTRON ===== */
+
+  .jumbotron .container .row .col-md-6 img {
+    top: 200px;
+    width: 100%;
+  }
+
+  /* ===== ABOUT ===== */
+
+  .about .container .row .col-md-6 img {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  /* ===== MENU ===== */
+
+  .menu .container .row .col-md-6 img {
+    width: 100%;
+  }
+
+  .menu .container .row .col-md-6 h2 {
+    margin-top: 20px;
+  }
+
+  /* ===== FACILITY ===== */
+
+  .facility .container .row .col-md-4 img {
+    width: 220px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+/* ========================= iPad PRO VIEW ========================= */
+
+@media only screen and (min-width: 1024px) {
+  .jumbotron .container .row .col-md-6 img {
+    top: 130px;
+    width: 100%;
+  }
+
+  .about .container .row .col-md-6 img {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .facility .container .row .col-md-4 img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+/* ========================= DESKTOP VIEW ========================= */
+
+@media only screen and (min-width: 1224px) {
+  .jumbotron .container .row .col-md-6 img {
+    top: 160px;
+    width: 100%;
+  }
+
+  .about .container .row .col-md-6 img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
